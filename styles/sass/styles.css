@@ -37,15 +37,19 @@
   background-position: center;
   background: url(../../images/experience.jpg) fixed center no-repeat;
   background-size: 100%; }
-  .content-wrap .experience-section-wrap .experience-section-container .exp-icon {
-    width: 80px;
-    height: 80px;
-    -webkit-filter: grayscale(100%);
-    /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%); }
-  .content-wrap .experience-section-wrap .experience-section-container .exp-icon:hover {
-    -webkit-filter: none;
-    /* Safari 6.0 - 9.0 */
-    filter: none; }
+  .content-wrap .experience-section-wrap .experience-section-container .icon-wrap {
+    margin-top: 20px; }
+    .content-wrap .experience-section-wrap .experience-section-container .icon-wrap .icon {
+      text-align: center; }
+      .content-wrap .experience-section-wrap .experience-section-container .icon-wrap .icon .exp-icon:hover {
+        -webkit-filter: none;
+        /* Safari 6.0 - 9.0 */
+        filter: none; }
+      .content-wrap .experience-section-wrap .experience-section-container .icon-wrap .icon .exp-icon {
+        width: 80px;
+        height: 80px;
+        -webkit-filter: grayscale(50%);
+        /* Safari 6.0 - 9.0 */
+        filter: grayscale(50%); }
 
 /*# sourceMappingURL=styles.css.map */

@@ -57,15 +57,21 @@ $oswald: 'Oswald', sans-serif;
     background: url(../../images/experience.jpg) fixed center no-repeat;
     background-size: 100%;
     .experience-section-container {
-      .exp-icon {
-        width: 80px;
-        height: 80px;
-        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-        filter: grayscale(100%);
-      }
-      .exp-icon:hover{
-        -webkit-filter: none; /* Safari 6.0 - 9.0 */
-        filter: none;
+      .icon-wrap {
+        margin-top: 20px;
+        .icon {
+          text-align: center;
+          .exp-icon:hover{
+            -webkit-filter: none; /* Safari 6.0 - 9.0 */
+            filter: none;
+          }
+          .exp-icon {
+            width: 80px;
+            height: 80px;
+            -webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
+            filter: grayscale(50%);
+          }
+        }
       }
     }
   }
