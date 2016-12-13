@@ -1,0 +1,72 @@
+// Google fonts import
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Biryani:400,700');
+
+// Font Variables
+$oswald: 'Oswald', sans-serif;
+
+// Mixins
+@mixin section-sizing {
+  height: 100vh;
+  background-position: center;
+}
+
+@mixin title {
+  color: white;
+  font-family: $oswald;
+  font-size: 4em;
+  border-bottom: 1px solid white;
+  width: auto;
+  letter-spacing: 7px;
+}
+
+.content-wrap {
+  .section-title {@include title}
+  .intro-section-wrap {
+    @include section-sizing;
+    background: url(../../images/background2.jpg) fixed center no-repeat;
+    background-size: auto 100%;
+  }
+  .about-section-wrap {
+    @include section-sizing;
+    background: url(../../images/about.jpg) fixed center no-repeat;
+    background-size: auto 100%;
+    background-position-x: -220px;
+
+    .about-section-container {
+      height: 100vh;
+      .section-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 70vh;
+        margin-top: 30px;
+      }
+    }
+    .about-section-container img {
+      height: 200px;
+      width: 200px;
+      text-align: center;
+      opacity: .7;
+    }
+  }
+
+  .experience-section-wrap {
+    @include section-sizing;
+    background: url(../../images/experience.jpg) fixed center no-repeat;
+    background-size: 100%;
+    .experience-section-container {
+      .exp-icon {
+        width: 80px;
+        height: 80px;
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+      }
+      .exp-icon:hover{
+        -webkit-filter: none; /* Safari 6.0 - 9.0 */
+        filter: none;
+      }
+    }
+  }
+}
