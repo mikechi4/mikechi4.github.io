@@ -81,8 +81,10 @@ $oswald: 'Oswald', sans-serif;
 
   .projects-section-wrap {
     @include section-sizing;
-    background: url(../../images/projects6.jpg) fixed center no-repeat;
-    background-size: 100% 100%;
+    background: url(../../images/projects6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     filter: grayscale(100%);
     .projects-section-container {
       height: 100vh;

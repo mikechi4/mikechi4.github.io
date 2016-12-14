@@ -57,8 +57,10 @@
 .content-wrap .projects-section-wrap {
   height: 100vh;
   background-position: center;
-  background: url(../../images/projects6.jpg) fixed center no-repeat;
-  background-size: 100% 100%;
+  background: url(../../images/projects6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   filter: grayscale(100%); }
   .content-wrap .projects-section-wrap .projects-section-container {
     height: 100vh; }
