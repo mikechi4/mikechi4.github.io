@@ -31,9 +31,10 @@ $oswald: 'Oswald', sans-serif;
   }
   .about-section-wrap {
     @include section-sizing;
-    background: url(../../images/about.jpg) fixed center no-repeat;
-    background-size: auto 100%;
-    background-position-x: -220px;
+    background: url(../../images/about.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
     .about-section-container {
       height: 100vh;
