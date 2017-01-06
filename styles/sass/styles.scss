@@ -15,6 +15,7 @@ $oswald: 'Oswald', sans-serif;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
 }
 
 @mixin title {
@@ -89,11 +90,9 @@ $oswald: 'Oswald', sans-serif;
   }
 
   .projects-section-wrap {
-
     background: url(../../images/projects6.jpg);
     @include background-params;
     .projects-section-container {
-
       .project-container{
         img{
           height: 100px;
