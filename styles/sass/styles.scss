@@ -9,6 +9,9 @@ $oswald: 'Oswald', sans-serif;
 @mixin section-sizing {
   height: 100vh;
   background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 @mixin background-params{
@@ -37,15 +40,13 @@ $oswald: 'Oswald', sans-serif;
     padding-top: 10px;
   }
   .intro-section-wrap {
-    @include section-sizing;
     background: url(../../images/background2.jpg) ;
-    @include background-params;
+      @include section-sizing;
   }
   .about-section-wrap {
-    @include section-sizing;
-    background: url(../../images/about.jpg) ;
-    @include background-params;
 
+    background: url(../../images/about.jpg) ;
+    @include section-sizing;
     .about-section-container {
       height: 100vh;
       .section-body {
@@ -66,8 +67,8 @@ $oswald: 'Oswald', sans-serif;
   }
 
   .experience-section-wrap {
-    @include section-sizing;
     background: url(../../images/experience.jpg)center no-repeat;
+        @include section-sizing;
     background-size: 100%;
     .experience-section-container {
       .icon-wrap {
@@ -106,9 +107,8 @@ $oswald: 'Oswald', sans-serif;
   }
 
   .contact-section-wrap {
-    @include section-sizing;
+
     background: url(../../images/contact.jpg) ;
-    // background-size: 100% 100%;
-    @include background-params;
+      @include section-sizing;
   }
 }
