@@ -12,6 +12,7 @@ $oswald: 'Oswald', sans-serif;
 }
 
 @mixin background-params{
+  background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -66,7 +67,7 @@ $oswald: 'Oswald', sans-serif;
 
   .experience-section-wrap {
     @include section-sizing;
-    background: url(../../images/experience.jpg);
+    background: url(../../images/experience.jpg)center no-repeat;
     background-size: 100%;
     .experience-section-container {
       .icon-wrap {
