@@ -14,14 +14,14 @@
 .content-wrap .intro-section-wrap {
   height: 100vh;
   background-position: center;
-  background: url(../../images/background2.jpg) fixed;
+  background: url(../../images/background2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
 .content-wrap .about-section-wrap {
   height: 100vh;
   background-position: center;
-  background: url(../../images/about.jpg) fixed;
+  background: url(../../images/about.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
@@ -42,7 +42,7 @@
 .content-wrap .experience-section-wrap {
   height: 100vh;
   background-position: center;
-  background: url(../../images/experience.jpg) fixed center no-repeat;
+  background: url(../../images/experience.jpg);
   background-size: 100%; }
   .content-wrap .experience-section-wrap .experience-section-container .icon-wrap {
     margin-top: 20px; }
@@ -59,7 +59,7 @@
         /* Safari 6.0 - 9.0 */
         filter: grayscale(50%); }
 .content-wrap .projects-section-wrap {
-  background: url(../../images/projects6.jpg) fixed;
+  background: url(../../images/projects6.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
@@ -71,7 +71,7 @@
 .content-wrap .contact-section-wrap {
   height: 100vh;
   background-position: center;
-  background: url(../../images/contact.jpg) fixed;
+  background: url(../../images/contact.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
