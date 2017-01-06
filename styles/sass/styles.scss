@@ -93,7 +93,9 @@ $oswald: 'Oswald', sans-serif;
     background: url(../../images/projects6.jpg);
     @include background-params;
     .projects-section-container {
+      height: 100vh;
       .project-container{
+        margin-bottom: 10px;
         img{
           height: 100px;
         }

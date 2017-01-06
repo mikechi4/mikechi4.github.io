@@ -65,11 +65,15 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
-  .content-wrap .projects-section-wrap .projects-section-container .project-container img {
-    height: 100px; }
-  .content-wrap .projects-section-wrap .projects-section-container .project-container .card-title {
-    color: #eee;
-    text-decoration: underline; }
+  .content-wrap .projects-section-wrap .projects-section-container {
+    height: 100vh; }
+    .content-wrap .projects-section-wrap .projects-section-container .project-container {
+      margin-bottom: 10px; }
+      .content-wrap .projects-section-wrap .projects-section-container .project-container img {
+        height: 100px; }
+      .content-wrap .projects-section-wrap .projects-section-container .project-container .card-title {
+        color: #eee;
+        text-decoration: underline; }
 .content-wrap .contact-section-wrap {
   height: 100vh;
   background-position: center;
