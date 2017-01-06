@@ -11,6 +11,12 @@ $oswald: 'Oswald', sans-serif;
   background-position: center;
 }
 
+@mixin background-params{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 @mixin title {
   color: white;
   font-family: $oswald;
@@ -21,20 +27,23 @@ $oswald: 'Oswald', sans-serif;
 }
 
 .content-wrap {
-  .section-title {@include title}
+  .section-title {
+    font-size: 12px;
+    @include title;
+  }
+  .title-sub{
+    color: white;
+    padding-top: 10px;
+  }
   .intro-section-wrap {
     @include section-sizing;
     background: url(../../images/background2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    @include background-params;
   }
   .about-section-wrap {
     @include section-sizing;
     background: url(../../images/about.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    @include background-params;
 
     .about-section-container {
       height: 100vh;
@@ -82,9 +91,7 @@ $oswald: 'Oswald', sans-serif;
   .projects-section-wrap {
     @include section-sizing;
     background: url(../../images/projects6.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    @include background-params;
     filter: grayscale(100%);
     .projects-section-container {
       height: 100vh;
@@ -103,6 +110,7 @@ $oswald: 'Oswald', sans-serif;
     @include section-sizing;
     background: url(../../images/contact.jpg) fixed center no-repeat;
     background-size: 100% 100%;
+    @include background-params;
     filter: grayscale(100%);
     .contact-section-container {
       height: 100vh;

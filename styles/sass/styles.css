@@ -1,12 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald:400,700");
 @import url("https://fonts.googleapis.com/css?family=Biryani:400,700");
 .content-wrap .section-title {
+  font-size: 12px;
   color: white;
   font-family: "Oswald", sans-serif;
   font-size: 2.5em;
   border-bottom: 1px solid white;
   width: auto;
   letter-spacing: 7px; }
+.content-wrap .title-sub {
+  color: white;
+  padding-top: 10px; }
 .content-wrap .intro-section-wrap {
   height: 100vh;
   background-position: center;
@@ -76,6 +80,9 @@
   background-position: center;
   background: url(../../images/contact.jpg) fixed center no-repeat;
   background-size: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   filter: grayscale(100%); }
   .content-wrap .contact-section-wrap .contact-section-container {
     height: 100vh; }
