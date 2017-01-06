@@ -12,19 +12,19 @@
   color: white;
   padding-top: 10px; }
 .content-wrap .intro-section-wrap {
+  height: 100vh;
+  background-position: center;
   background: url(../../images/background2.jpg);
-  height: 100vh;
-  background-position: center;
-  background-attachment: fixed;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-position: center; }
 .content-wrap .about-section-wrap {
-  background: url(../../images/about.jpg);
   height: 100vh;
   background-position: center;
-  background-attachment: fixed;
+  background: url(../../images/about.jpg);
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-position: center; }
   .content-wrap .about-section-wrap .about-section-container {
     height: 100vh; }
     .content-wrap .about-section-wrap .about-section-container .section-body {
@@ -40,12 +40,9 @@
     text-align: center;
     opacity: .7; }
 .content-wrap .experience-section-wrap {
-  background: url(../../images/experience.jpg) center no-repeat;
   height: 100vh;
   background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url(../../images/experience.jpg) center no-repeat;
   background-size: 100%; }
   .content-wrap .experience-section-wrap .experience-section-container .icon-wrap {
     margin-top: 20px; }
@@ -63,7 +60,6 @@
         filter: grayscale(50%); }
 .content-wrap .projects-section-wrap {
   background: url(../../images/projects6.jpg);
-  background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
@@ -73,11 +69,11 @@
     color: #eee;
     text-decoration: underline; }
 .content-wrap .contact-section-wrap {
-  background: url(../../images/contact.jpg);
   height: 100vh;
   background-position: center;
-  background-attachment: fixed;
+  background: url(../../images/contact.jpg);
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-position: center; }
 
 /*# sourceMappingURL=styles.css.map */
