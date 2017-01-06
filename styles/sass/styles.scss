@@ -109,25 +109,9 @@ $oswald: 'Oswald', sans-serif;
   .contact-section-wrap {
     @include section-sizing;
     background: url(../../images/contact.jpg) fixed center no-repeat;
-    background-size: 100% 100%;
+    // background-size: 100% 100%;
     @include background-params;
     filter: grayscale(100%);
-    .contact-section-container {
-      height: 100vh;
-      .section-body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        height: 70vh;
-        margin-top: 30px;
-      }
-    }
-    .contact-section-container img {
-      height: 200px;
-      width: 200px;
-      text-align: center;
-      opacity: .7;
-    }
+
   }
 }
