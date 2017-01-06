@@ -17,6 +17,10 @@ $oswald: 'Oswald', sans-serif;
   background-position: center;
 }
 
+@mixin fixed-bg {
+  background-attachment: fixed;
+}
+
 @mixin title {
   color: white;
   font-family: $oswald;
@@ -39,14 +43,23 @@ $oswald: 'Oswald', sans-serif;
     @include section-sizing;
     background: url(../../images/background2.jpg) ;
     @include background-params;
+    @media only screen and (min-width: 576px) {
+      @include fixed-bg;
+    }
   }
   .about-section-wrap {
     @include section-sizing;
     background: url(../../images/about.jpg) ;
     @include background-params;
+    @media only screen and (min-width: 576px) {
+      @include fixed-bg;
+    }
 
     .about-section-container {
       height: 100vh;
+      @media only screen and (min-width: 576px) {
+        @include fixed-bg;
+      }
       .section-body {
         display: flex;
         flex-direction: column;
@@ -68,6 +81,9 @@ $oswald: 'Oswald', sans-serif;
     @include section-sizing;
     background: url(../../images/experience.jpg) center no-repeat;
     background-size: 100%;
+    @media only screen and (min-width: 576px) {
+      @include fixed-bg;
+    }
     .experience-section-container {
       .icon-wrap {
         margin-top: 20px;
@@ -91,6 +107,9 @@ $oswald: 'Oswald', sans-serif;
   .projects-section-wrap {
     background: url(../../images/projects6.jpg) ;
     @include background-params;
+    @media only screen and (min-width: 576px) {
+      @include fixed-bg;
+    }
     .projects-section-container {
       .project-container{
         img{
@@ -109,5 +128,8 @@ $oswald: 'Oswald', sans-serif;
     background: url(../../images/contact.jpg) ;
     // background-size: 100% 100%;
     @include background-params;
+    @media only screen and (min-width: 576px) {
+      @include fixed-bg;
+    }
   }
 }

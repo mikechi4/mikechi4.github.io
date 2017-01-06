@@ -18,6 +18,9 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
+  @media only screen and (min-width: 576px) {
+    .content-wrap .intro-section-wrap {
+      background-attachment: fixed; } }
 .content-wrap .about-section-wrap {
   height: 100vh;
   background-position: center;
@@ -25,8 +28,14 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
+  @media only screen and (min-width: 576px) {
+    .content-wrap .about-section-wrap {
+      background-attachment: fixed; } }
   .content-wrap .about-section-wrap .about-section-container {
     height: 100vh; }
+    @media only screen and (min-width: 576px) {
+      .content-wrap .about-section-wrap .about-section-container {
+        background-attachment: fixed; } }
     .content-wrap .about-section-wrap .about-section-container .section-body {
       display: flex;
       flex-direction: column;
@@ -44,6 +53,9 @@
   background-position: center;
   background: url(../../images/experience.jpg) center no-repeat;
   background-size: 100%; }
+  @media only screen and (min-width: 576px) {
+    .content-wrap .experience-section-wrap {
+      background-attachment: fixed; } }
   .content-wrap .experience-section-wrap .experience-section-container .icon-wrap {
     margin-top: 20px; }
     .content-wrap .experience-section-wrap .experience-section-container .icon-wrap .icon {
@@ -63,6 +75,9 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
+  @media only screen and (min-width: 576px) {
+    .content-wrap .projects-section-wrap {
+      background-attachment: fixed; } }
   .content-wrap .projects-section-wrap .projects-section-container .project-container img {
     height: 100px; }
   .content-wrap .projects-section-wrap .projects-section-container .project-container .card-title {
@@ -75,5 +90,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
+  @media only screen and (min-width: 576px) {
+    .content-wrap .contact-section-wrap {
+      background-attachment: fixed; } }
 
 /*# sourceMappingURL=styles.css.map */
