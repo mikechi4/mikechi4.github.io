@@ -17,14 +17,16 @@
   background: url(../../images/background2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  background-attachment: fixed; }
 .content-wrap .about-section-wrap {
   height: 100vh;
   background-position: center;
   background: url(../../images/about.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  background-attachment: fixed; }
   .content-wrap .about-section-wrap .about-section-container {
     height: 100vh; }
     .content-wrap .about-section-wrap .about-section-container .section-body {
@@ -62,7 +64,8 @@
   background: url(../../images/projects6.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  background-attachment: fixed; }
   .content-wrap .projects-section-wrap .projects-section-container .project-container img {
     height: 100px; }
   .content-wrap .projects-section-wrap .projects-section-container .project-container .card-title {
@@ -74,6 +77,7 @@
   background: url(../../images/contact.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  background-attachment: fixed; }
 
 /*# sourceMappingURL=styles.css.map */
