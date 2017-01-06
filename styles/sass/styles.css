@@ -43,10 +43,12 @@
       justify-content: space-between;
       height: 70vh;
       margin-top: 30px; }
-  .content-wrap .about-section-wrap .about-section-container img {
+  .content-wrap .about-section-wrap .image {
+    text-align: center;
+    color: white; }
+  .content-wrap .about-section-wrap .image img {
     height: 200px;
     width: 200px;
-    text-align: center;
     opacity: .7; }
 .content-wrap .experience-section-wrap {
   height: 100vh;
@@ -90,6 +92,10 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
+  .content-wrap .contact-section-wrap .contact-main-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
   @media only screen and (min-width: 576px) {
     .content-wrap .contact-section-wrap {
       background-attachment: fixed; } }

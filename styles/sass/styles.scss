@@ -69,10 +69,13 @@ $oswald: 'Oswald', sans-serif;
         margin-top: 30px;
       }
     }
-    .about-section-container img {
+    .image {
+      text-align: center;
+      color: white;
+    }
+    .image img {
       height: 200px;
       width: 200px;
-      text-align: center;
       opacity: .7;
     }
   }
@@ -128,8 +131,13 @@ $oswald: 'Oswald', sans-serif;
     background: url(../../images/contact.jpg) ;
     // background-size: 100% 100%;
     @include background-params;
+    .contact-main-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
     @media only screen and (min-width: 576px) {
-      @include fixed-bg;
+    @include fixed-bg;
     }
   }
 }
