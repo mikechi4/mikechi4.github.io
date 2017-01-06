@@ -8,13 +8,13 @@ $oswald: 'Oswald', sans-serif;
 // Mixins
 @mixin section-sizing {
   height: 100vh;
+  background-position: center;
 }
 
 @mixin background-params{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
 }
 
 @mixin title {
@@ -66,7 +66,7 @@ $oswald: 'Oswald', sans-serif;
 
   .experience-section-wrap {
     @include section-sizing;
-    background: url(../../images/experience.jpg) no-repeat;
+    background: url(../../images/experience.jpg) fixed center no-repeat;
     background-size: 100%;
     .experience-section-container {
       .icon-wrap {
@@ -89,10 +89,11 @@ $oswald: 'Oswald', sans-serif;
   }
 
   .projects-section-wrap {
-    // @include section-sizing;
+
     background: url(../../images/projects6.jpg);
     @include background-params;
     .projects-section-container {
+
       .project-container{
         margin-bottom: 10px;
         img{
