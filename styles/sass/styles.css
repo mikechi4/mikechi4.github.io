@@ -78,7 +78,7 @@
 .content-wrap .contact-section-wrap {
   height: 100vh;
   background-position: center;
-  background: url(../../images/contact.jpg) fixed center no-repeat;
+  background: url(../../images/contact.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
