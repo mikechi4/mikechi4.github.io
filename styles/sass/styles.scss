@@ -37,12 +37,12 @@ $oswald: 'Oswald', sans-serif;
   }
   .intro-section-wrap {
     @include section-sizing;
-    background: url(../../images/background2.jpg);
+    background: url(../../images/background2.jpg) fixed;
     @include background-params;
   }
   .about-section-wrap {
     @include section-sizing;
-    background: url(../../images/about.jpg);
+    background: url(../../images/about.jpg) fixed;
     @include background-params;
 
     .about-section-container {
@@ -89,7 +89,7 @@ $oswald: 'Oswald', sans-serif;
   }
 
   .projects-section-wrap {
-    background: url(../../images/projects6.jpg);
+    background: url(../../images/projects6.jpg) fixed;
     @include background-params;
     .projects-section-container {
       .project-container{
@@ -106,7 +106,7 @@ $oswald: 'Oswald', sans-serif;
 
   .contact-section-wrap {
     @include section-sizing;
-    background: url(../../images/contact.jpg);
+    background: url(../../images/contact.jpg) fixed;
     // background-size: 100% 100%;
     @include background-params;
   }
