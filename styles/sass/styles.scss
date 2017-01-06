@@ -14,7 +14,7 @@ $oswald: 'Oswald', sans-serif;
 @mixin title {
   color: white;
   font-family: $oswald;
-  font-size: 4em;
+  font-size: 2.5em;
   border-bottom: 1px solid white;
   width: auto;
   letter-spacing: 7px;
@@ -96,12 +96,6 @@ $oswald: 'Oswald', sans-serif;
         height: 70vh;
         margin-top: 30px;
       }
-    }
-    .projects-section-container img {
-      height: 200px;
-      width: 200px;
-      text-align: center;
-      opacity: .7;
     }
   }
 
